@@ -74,13 +74,21 @@ main{
     background-color: white;
      display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    padding-top: 30px;
+    padding-left: 35px;
 }
+.generatore2.mostra{
+    display: none;
+}
+
 .biglietto{
-    width: 80%;
+    width: 95%;
     height: 80%;
-    background-color: chocolate;
+    /* background-color: chocolate; */
     display: flex;
+    border: 1px solid #808080;
+  
 }
 .gen-1{
     display: flex;
@@ -106,28 +114,30 @@ main{
 .nomePass{
     width: 30%;
     height: 100%;
-    background-color: brown;
+    background-color: #808080;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .offerta{
-    width: 25%;
+    width: 20%;
     height: 100%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .carrozza{
-    width: 20%;
+    width: 15%;
     height: 100%;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .codice{
-    width: 20%;
+    width: 15%;
     height: 100%;
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -135,7 +145,7 @@ main{
 .costoBiglietto{
     width: 20%;
     height: 100%;
-    background-color: crimson;
+    /* background-color: crimson; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -143,11 +153,33 @@ main{
 .desc{
     height: 35%;
     width: 100%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: flex-end;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.desc2{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    /* background-color: aquamarine; */
+    font-size: 18px;
 }
 .valori{
     height: 40%;
     width: 100%;
-    background-color: chocolate;
+    /* background-color: chocolate; */
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    padding-left: 20px;
     
+}
+.nom-pass{
+    font-size: 20px;
+}
+.nomeBiglietto{
+    font-size: 15px;
 }
