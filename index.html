@@ -9,35 +9,43 @@
 <body>
 <main>
     <div class="container">
+        <div class="calcola">
+          <span class="text-calcola"><strong>CALCOLA IL PREZZO DEL TUO BIGLIETTO</strong> </span> </div>
+          
         <div class="generatore">
             <div class="gen-1">
+                
         <div class="nomecognome">
-            <div>Nome e Cognome</div>
-         <input type="text" id="inputNomeCognome">
+            <div class="align">Nome e Cognome</div>
+         <input type="text" id="inputNomeCognome" class="pad">
         </div>
         <div class="percorso">
-            <div>Km da percorrere</div>
-         <input type="number" id="inputKm">
+            <div class="align">Km da percorrere</div>
+         <input type="number" id="inputKm" class="pad">
         </div>
         <div class="fascia-eta">
-            <div>Fascia d`età</div>
-            <input type="number" id="inputEta">
+            <div class="align">Fascia d`età</div>
+            <input type="number" id="inputEta" class="pad">
         </div>
         </div>
         <div class="gen-2">
-            <button id="genera">Genera</button>
-             <input type="reset" id="annulla" value="Annulla"> 
-             <h1 id="title"></h1>
+            
+            <button id="genera" class="color-button">Genera</button>
+             <input type="reset" id="annulla" value="Annulla"  class="color-button"> 
+           
         </div>
     </div>
 
    <div class="generatore2 mostra">
+    <div class="dettaglio">
+        <span class="text-dettaglio"><strong>DETTAGLIO PASSEGGERI</strong> </span>
+    </div>
         <div class="biglietto">
             <div class="nomePass">
                 <div class="desc2">
                   <div class="nom-pass"><strong>NOME PASSEGGERO</strong>  </div> </div>
                   <div class="valori2">
-                  <div id="nomeBiglietto"></div>   </div>
+                  <div id="nomeBiglietto" class="nomePasseggero"></div>   </div>
                
             </div>
             <div class="offerta">
@@ -46,11 +54,11 @@
             </div>
             <div class="carrozza">
                 <div class="desc"><strong>Carrozza</strong></div>
-                <div class="valori">5</div>
+                <div class="valore-carrozza"></div>
             </div>
             <div class="codice">
                 <div class="desc">CODICE CP</div>
-                <div class="valori">92911</div>
+                <div class="valore-codice"></div>
             </div>
             <div class="costoBiglietto">
                 <div class="desc">Costo Biglietto</div>

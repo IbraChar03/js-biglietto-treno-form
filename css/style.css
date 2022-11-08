@@ -14,7 +14,7 @@ main{
 }
 .container{
     width: 60%;
-     height: 700px;  
+    /* height: 700px;    */
     background-color: aqua;
     padding-bottom: 10px;
     display: flex;
@@ -22,6 +22,17 @@ main{
     justify-content: center;
     align-items: center;
   
+}
+.calcola{
+    width: 80%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-calcola{
+    color: white;
+    font-size: 35px;
 }
 
 #title{
@@ -44,19 +55,7 @@ main{
 
 }
 
-#prezzo{
-    display: none;
-    color: red;
-    font-size: 35px;
-    text-align: center;
-}
-.box{
-    width: 100%;
-}
-.box:active #prezzo{
-    display: block;
-    
-}
+
 .generatore{
     margin-top: 20px;
     width: 80%;
@@ -70,13 +69,14 @@ main{
 .generatore2{
     margin-top: 20px;
     width: 80%;
-    height: 200px;
+     height: 200px; 
     background-color: white;
      display: flex;
     justify-content: center;
     align-items: center; 
     padding-top: 30px;
     padding-left: 35px;
+    padding-bottom: 10px;
 }
 .generatore2.mostra{
     display: none;
@@ -89,6 +89,15 @@ main{
     display: flex;
     border: 1px solid #808080;
   
+}
+.dettaglio{
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.text-dettaglio{
+    font-size: 20px;
 }
 .gen-1{
     display: flex;
@@ -118,6 +127,10 @@ main{
     padding-left: 15px;
     padding-right: 15px;
 }
+.nomePasseggero{
+    font-size: 18px;
+    font-weight: bold;
+}
 .offerta{
     width: 20%;
     height: 100%;
@@ -133,6 +146,20 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.align{
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+.pad{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: blueviolet;
+}
+.color-button{
+    font-size: 20px;
+    color: blueviolet;
 }
 .codice{
     width: 15%;
@@ -175,6 +202,29 @@ main{
     align-items: flex-end;
     padding-bottom: 20px;
     padding-left: 20px;
+    font-size: 16px;
+    
+}
+.valore-carrozza{
+    height: 40%;
+    width: 100%;
+    /* background-color: chocolate; */
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    
+}
+.valore-codice{
+    height: 40%;
+    width: 100%;
+    /* background-color: chocolate; */
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 16px;
     
 }
 .nom-pass{
