@@ -156,6 +156,8 @@ main{
     padding: 10px;
     border-radius: 5px;
     border-color: blueviolet;
+    text-align: center;
+    font-size: 18px;
 }
 .color-button{
     font-size: 20px;
