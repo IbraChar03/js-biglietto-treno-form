@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+main{
+    display: flex;
+     justify-content: center; 
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 60%;
+     height: 700px;  
+    background-color: aqua;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#title{
+    text-align: center;
+}
+#anni{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#chilometri{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#biglietto2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+#prezzo{
+    display: none;
+    color: red;
+    font-size: 35px;
+    text-align: center;
+}
+.box{
+    width: 100%;
+}
+.box:active #prezzo{
+    display: block;
+    
+}
+.generatore{
+    margin-top: 20px;
+    width: 80%;
+    height: 200px;
+    background-color: white;
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start; */
+    padding-top: 20px;
+}
+.generatore2{
+    margin-top: 20px;
+    width: 80%;
+    height: 200px;
+    background-color: white;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.biglietto{
+    width: 80%;
+    height: 80%;
+    background-color: chocolate;
+    display: flex;
+}
+.gen-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+    height: 60%;
+}
+.gen-2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#genera{
+    padding: 10px;
+    margin-right: 20px;
+}
+#annulla{
+    padding: 10px;
+}
+.nomePass{
+    width: 30%;
+    height: 100%;
+    background-color: brown;
+}
+.offerta{
+    width: 25%;
+    height: 100%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.carrozza{
+    width: 20%;
+    height: 100%;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.codice{
+    width: 20%;
+    height: 100%;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.costoBiglietto{
+    width: 20%;
+    height: 100%;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.desc{
+    height: 35%;
+    width: 100%;
+    background-color: aquamarine;
+}
+.valori{
+    height: 40%;
+    width: 100%;
+    background-color: chocolate;
+    
+}
